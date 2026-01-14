@@ -1,0 +1,68 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+
+# ===============================
+# Logs & runtime artifacts
+# ===============================
+*.log
+*.tmp
+
+# ===============================
+# Jupyter / notebooks
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# ML model artifacts (unable to upload to github due to size limits)
+# ===============================
+*.safetensors
+
+# ===============================
+# Hugging Face / Transformers cache
+# ===============================
+.cache/
+huggingface/
+hf_cache/
+
+# ===============================
+# Gradio
+# ===============================
+gradio_cached_examples/
+.gradio/
+
+# ===============================
+# Local result files
+# ===============================
+fusion_agent/results_log.jsonl
+
+# ===============================
+# Environment variables
+# ===============================
+.env
+.env.*
+
+# ===============================
+# Build / distribution
+# ===============================
+build/
+dist/
+*.egg-info/
